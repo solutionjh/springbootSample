@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "app.datasource.pool-size",
+    "type": "java.lang.String",
+    "description": "Data Source pool size"
+  },
+  {
+    "name": "app.datasource.username",
+    "type": "java.lang.String",
+    "description": "Data Source User Name"
+  },
+  {
+    "name": "app.datasource.url",
+    "type": "java.lang.String",
+    "description": "Data Source URL'"
+  }]
+}

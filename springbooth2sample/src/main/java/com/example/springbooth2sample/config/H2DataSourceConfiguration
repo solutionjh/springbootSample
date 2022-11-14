@@ -1,0 +1,8 @@
+@Configuration(proxyBeanMethods = false)
+public class H2DataSourceConfiguration{
+    @Bean
+    @ConfigurationProperties(prefix="app.datasource")
+    public H2DataSource datasource(){
+        return DataSourceBuilder.create().build();
+    }
+}
